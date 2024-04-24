@@ -6,7 +6,9 @@ export default {
       colors: {
         white: {
           150: "#D9D9D9"
-        }
+        },
+        gray: "EAEFF4"
+
       },
       fontFamily: {
         'outfit': ["Outfit"],
