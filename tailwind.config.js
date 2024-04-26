@@ -4,11 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        white: {
-          150: "#D9D9D9"
-        },
-        gray: "EAEFF4"
-
+        'primary': "#D9D9D9",
+        'secondary': "#B79F8E",
+        'span': "#475045",
+        'zhero': "#EAEFF4",
+        'paragraph': "#505056"
       },
       fontFamily: {
         'outfit': ["Outfit"],
