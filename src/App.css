@@ -1,20 +1,24 @@
-
 li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
   /* font-family: "Outfit", sans-serif; */
-  ;
 }
 
 html {
   /* font-size: 62.5%; */
 }
 .font-roboto {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .font-outfit {
-  font-family: 'Outfit', serif;
+  font-family: "Outfit", serif;
+}
+
+.banner {
+  background-image: url("/img/banner.png");
+  background-position: right;
+  background-repeat: no-repeat;
 }
