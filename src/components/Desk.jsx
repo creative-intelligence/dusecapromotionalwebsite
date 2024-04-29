@@ -8,9 +8,9 @@ const Desk = () => {
     <>
       {/* hero section */}
       <div className="bg-[#EAEFF4] w-full">
-        <section className="container h-[40rem] md:h-[48rem] text-black flex justify-between items-center space-y-5 py-32">
+        <section className="container  h-[40rem] md:h-[48rem] text-black flex justify-between items-center space-y-5 py-32">
           <div className="lg:max-w-[50%] w-full">
-            <h1 className="text-5xl md:text-7xl font-semibold text-secondary  ">
+            <h1 className="text-5xl md:text-7xl font-semibold text-secondary">
               Welcome to
             </h1>
             <h1 className="text-4xl md:text-7xl font-semibold mb-8  text-span">
@@ -64,7 +64,7 @@ const Desk = () => {
               maintained
             </h1>
 
-            <p className="font-normal text-base font-roboto text-paragraph ">
+            <p className="font-normal text-base font-roboto text-paragraph">
               Vehicles boasting plush seating, climate control, and spacious
               interiors. Parents can have peace of mind with our GPS tracking
               system, allowing them to know their child{"'"}s location at all
@@ -115,10 +115,10 @@ const Desk = () => {
             </div>
           </div>
           <div className="w-[48%] h-[805px] relative lg:block hidden">
-            <div className="w-20 h-20 -z-10 bg-secondary absolute top-0 left-0"></div>
+            <div className="w-20 h-20 -z-10  bg-secondary absolute top-0 left-0"></div>
             <div className="w-20 h-20 -z-10 bg-secondary absolute bottom-0 right-0"></div>
             <img
-              className="z-20 h-[785px]"
+              className="z-20 h-[790px] pt-4"
               src="img/Rectangle 110538.png"
               alt=""
             />
@@ -290,6 +290,8 @@ const Desk = () => {
         </div>
       </section>
 
+{/* downlad app */}
+
       <div className="">
         <div className="container">
           <div className="flex flex-col justify-center items-center">
@@ -363,8 +365,8 @@ const Desk = () => {
           </div>
         </div>
       </div>
-      <div className="mt-16 md:mx-56">
-        <div className="container">
+      <div className="mt-16 md:mx-auto md:max-w-[1186px]">
+        <div className="container ">
           <div className="bg-[#FF6B58] banner py-10 px-10 rounded-lg flex justify-between items-center">
             <h1 className="text-2xl md:text-4xl font-bold text-white">
               Register your

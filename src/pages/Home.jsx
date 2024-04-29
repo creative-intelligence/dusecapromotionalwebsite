@@ -1,7 +1,9 @@
+import React from "react";
 import Navbar from "../layouts/Navbar";
 import Desk from "../components/Desk";
+import Faq from "../layouts/Faq";
+
 import Footer from "../components/Footer/Footer";
-// import "../Styles/Home.css"
 
 const Home = () => {
   return (
@@ -9,6 +11,7 @@ const Home = () => {
       <div className="font-roboto">
         <Navbar />
         <Desk />
+        <Faq/>
         <Footer />
       </div>
     </>

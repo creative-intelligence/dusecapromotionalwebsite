@@ -23,6 +23,7 @@ export default {
       fontFamily: {
         outfit: ["Outfit"],
         roboto: ["Roboto"],
+        poppins:["Poppins"]
       },
     },
   },

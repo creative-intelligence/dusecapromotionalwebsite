@@ -31,7 +31,7 @@ export default function Navbar() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-3.5 text-gray-700"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -50,7 +50,7 @@ export default function Navbar() {
           ))}
           <a
             href="#"
-            className="text-sm font-semibold leading-6 text-gray-900 bg-[#D9D9D9] px-6 py-3 rounded"
+            className="text-sm font-semibold leading-6 text-gray-900 bg-[#D9D9D9] px-8 py-3 rounded"
           >
             Request a quote
           </a>
